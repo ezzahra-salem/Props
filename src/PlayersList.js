@@ -3,7 +3,7 @@ import Player from "./Player";
 
 const PlayersList = ({ players }) => {
   return (
-    <div style={{ display: "flex", flexWrap: "wrap" }}>
+    <div className="cardplay">
       {players.map((player, index) => (
         <Player key={index} player={player} />
       ))}
